@@ -31,34 +31,13 @@ class XylophoneApp extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              buildKey(
-                color: Colors.orange,
-                noteNumber: 2,
-              ),
-              buildKey(
-                color: Colors.red,
-                noteNumber: 1,
-              ),
-              buildKey(
-                color: Colors.yellow,
-                noteNumber: 3,
-              ),
-              buildKey(
-                color: Colors.green,
-                noteNumber: 4,
-              ),
-              buildKey(
-                color: Colors.blue,
-                noteNumber: 5,
-              ),
-              buildKey(
-                color: Colors.indigo,
-                noteNumber: 6,
-              ),
-              buildKey(
-                color: Colors.purple,
-                noteNumber: 7,
-              ),
+              buildKey(color: Colors.orange, noteNumber: 2),
+              buildKey(color: Colors.red, noteNumber: 1),
+              buildKey(color: Colors.yellow, noteNumber: 3),
+              buildKey(color: Colors.green, noteNumber: 4),
+              buildKey(color: Colors.blue, noteNumber: 5),
+              buildKey(color: Colors.indigo, noteNumber: 6),
+              buildKey(color: Colors.purple, noteNumber: 7),
             ],
           ),
         ),
